@@ -1,18 +1,13 @@
-## Getting Started
+# Exemplo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Considere que 10 automóveis se deslocam de lugares
+distintos, distantes de 1Km a 2km de um
+estacionamento. Todos pretendem estacionar nesse
+estacionamento que tem 3 vagas. Os carros se
+deslocam em velocidade de 100 m a cada 100
+milissegundos e, quando estacionam, pretendem ficar
+de 1 a 3 segundos estacionados. Ao chegar e ao sair
+do estacionamento, deve-se fazer uma notificação. Ao
+estacionar, também deve-se fazer uma notificação. Os
+carros que chegam e não conseguem estacionar,
+devem aguardar em fila por ordem de chegada.
